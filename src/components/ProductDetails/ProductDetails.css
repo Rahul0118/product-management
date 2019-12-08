@@ -1,0 +1,133 @@
+.products_gallery {
+    padding: 90px 0;
+}
+
+.products_gallery .card{
+	border: 0;
+	background-color: #f6f6f6;
+}
+
+.products_gallery .card-body{
+	padding: 20px 20px 20px 0;
+}
+
+.products_gallery .card-title{
+	color: #333333;
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.products_gallery .card-text{
+	font-size: 16px;
+	color: #606060;
+	line-height: 26px;
+}
+
+.products_gallery h2 {
+    margin-bottom: 30px;
+}
+
+.products_gallery .btn-toolbar {
+	-webkit-box-pack: end;
+	    -ms-flex-pack: end;
+	        justify-content: flex-end;
+	padding-bottom: 30px;
+}
+
+.products_gallery .btn-toolbar .btn + .btn {
+    margin-left: 15px;
+}
+
+.products_gallery .btn-toolbar .btn {
+    background-color: #02aed6;
+    padding: 11px 32px;
+    border-color: #02aed6;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    -webkit-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+.products_gallery .btn-toolbar .btn:hover{
+    background-color: transparent;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    color: #02aed6;
+    border-color: #02aed6;
+}
+
+.products_gallery .btn-danger:not(:disabled):not(.disabled).active:focus,
+.products_gallery .btn-danger:not(:disabled):not(.disabled):active:focus,
+.products_gallery .show>.btn-danger.dropdown-toggle:focus{
+	-webkit-box-shadow: none;
+	        box-shadow: none;
+}
+
+
+/********* responsive css ***********/
+
+@media(max-width:1199px) {
+    .products_gallery{
+        padding: 35px 0;
+    }
+
+    .products_gallery h2 {
+        font-size: 30px;
+       margin-bottom: 25px;
+    }
+}
+
+@media(max-width:991px) {
+    .products_gallery {
+        padding: 30px 0;
+    }
+}
+
+@media(max-width:767px) {
+
+}
+
+@media(max-width:575px) {
+
+    .products_gallery {
+       padding: 25px 0;
+    }
+
+    .products_gallery h2 {
+        font-size: 25px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .products_gallery .btn-toolbar {
+        justify-content: center;
+    }
+
+    .products_gallery .btn-toolbar .btn {
+        padding: 8px 20px;
+    }
+
+    .products_gallery .card-title{
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+
+    .products_gallery .card-text {
+        font-size: 15px;
+        line-height: 25px;
+    }    
+}
+
+@media(max-width:480px) {
+
+}
+
+@media(max-width:420px) {
+
+}
+
+
+/********* responsive css ends ***********/

@@ -1,0 +1,11 @@
+.footer_section {
+    padding: 25px 0;
+    background-color: #02aed6;
+}
+
+.footer_section p{
+    font-size: 18px;
+    color: #fff;
+	text-align: center;
+	margin-bottom: 0;
+}

@@ -1,0 +1,154 @@
+.Addsection {
+    padding: 90px 0;
+    background-color: #f6f6f6;
+}
+
+.Addsection h2 {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.Addsection .row{
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+.Addsection .form-group{
+    margin-bottom: 30px;
+}
+
+.Addsection .form-label {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.Addsection .form-control{
+    height: 50px;
+    font-size: 15px;
+    line-height: 30px;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    border: 1px solid #ebebeb;
+    color: #888888;
+    font-weight: 400;
+    padding: 20px;
+    -webkit-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+.Addsection .form-control:focus{
+    -webkit-box-shadow: 0 0 5px rgba(3,149,63,0.35);
+            box-shadow: 0 0 5px rgba(3,149,63,0.35);
+}
+
+.form-group .form-check-input{
+    color: #02aed6;
+}
+
+.form-group textarea.form-control{
+    height: 150px;
+    resize: none;
+}
+
+.form-group .form-check-input:focus {
+    outline: 0;
+}
+
+
+.Addsection .btn {
+    background-color: #02aed6;
+    padding: 11px 32px;
+    border-color: #02aed6;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    width: 100%;
+    -webkit-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+.Addsection .btn:hover{
+    background-color: transparent;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    color: #02aed6;
+    border-color: #02aed6;
+}
+
+
+/********* responsive css ***********/
+
+@media(max-width:1199px) {
+    .Addsection{
+        padding: 35px 0;
+    }
+
+    .Addsection h2 {
+        font-size: 35px;
+    }
+
+    .Addsection .form-group {
+       margin-bottom: 25px;
+    }
+
+    .Addsection .form-label{
+        margin-bottom: 12px;
+    }
+}
+
+@media(max-width:991px) {
+    .Addsection{
+        padding: 30px 0;
+    }
+
+    .Addsection h2 {
+       font-size: 30px;
+    }
+}
+
+@media(max-width:767px) {
+    .Addsection {
+       padding: 25px 0;
+    }
+
+    .Addsection h2 {
+       font-size: 25px;
+       margin-bottom: 25px;
+    }
+}
+
+@media(max-width:575px) {
+    .Addsection h2 {
+        font-size: 22px;
+        margin-bottom: 22px;
+    }
+
+    .Addsection .form-label {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .Addsection .form-group {
+       margin-bottom: 20px;
+    }
+
+    .Addsection .form-control{
+        font-size: 14px;
+        padding: 8px 15px;
+    }
+}
+
+@media(max-width:480px) {
+
+}
+
+@media(max-width:420px) {
+
+}
+
+
+/********* responsive css ends ***********/
