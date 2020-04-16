@@ -9,7 +9,7 @@ class FooterContainer extends Component {
 		return (
 			<div className="footer_section">
 				<Container>
-					<p>Project Mangement © 2019</p>
+					<p>Product Mangement © 2020</p>
 				</Container>
 			</div>
 		);
